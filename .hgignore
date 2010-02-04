@@ -1,0 +1,5 @@
+syntax: glob
+
+*.pyc
+index.yaml
+zkwiki/settings_local.py
