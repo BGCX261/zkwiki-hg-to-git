@@ -13,10 +13,12 @@ MIDDLEWARE_CLASSES = (
 INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sites',
+    'zkwiki.wiki',
 )
 
-ROOT_PATH = os.path.dirname(__file__)
+ROOT_PATH = os.path.dirname(__file__).replace('\\', '/')
 TEMPLATE_DIRS = (
+    ROOT_PATH + '/templates',
 )
 
 try:
